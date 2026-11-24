@@ -1,0 +1,37 @@
+{
+  "season": 2018,
+  "asset_id": 513302524,
+  "asset_name": "player_season_stats_2018.parquet",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_season_stats/player_season_stats_2018.parquet",
+  "source_created_at": "2026-08-13T17:43:46Z",
+  "source_updated_at": "2026-08-13T17:43:46Z",
+  "retrieved_at": "2026-11-24T16:12:54.173544+00:00",
+  "size_bytes": 550526,
+  "sha256": "2e70ccf09e4ffbe71b03ebbc832fbd91a14818adb3289973a8a22fee26e96813",
+  "validation": {
+    "rows": 7500,
+    "columns": 207,
+    "unique_players": 541,
+    "regular_season_players": 540,
+    "duplicate_keys": 0,
+    "season_types": [
+      "playoffs",
+      "regular-season"
+    ],
+    "measure_types": [
+      "advanced",
+      "base",
+      "misc",
+      "scoring",
+      "usage"
+    ],
+    "per_modes": [
+      "pergame",
+      "totals"
+    ],
+    "records_per_player": {
+      "10": 540
+    },
+    "max_games_played": 82
+  }
+}

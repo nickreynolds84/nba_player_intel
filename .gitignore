@@ -133,6 +133,10 @@ __pypackages__/
 celerybeat-schedule*
 celerybeat.pid
 
+# Data 
+.parquet
+.json 
+
 # Redis
 *.rdb
 *.aof

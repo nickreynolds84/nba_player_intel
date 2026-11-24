@@ -1,0 +1,37 @@
+{
+  "season": 2027,
+  "asset_id": 784179506,
+  "asset_name": "player_season_stats_2027.parquet",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_season_stats/player_season_stats_2027.parquet",
+  "source_created_at": "2026-11-23T19:03:23Z",
+  "source_updated_at": "2026-11-23T19:03:23Z",
+  "retrieved_at": "2026-11-24T16:13:33.040967+00:00",
+  "size_bytes": 422461,
+  "sha256": "3b6d72da355d3628dabf5c5d83828ef166d91559ef0e9d245e7bba394bc0324c",
+  "validation": {
+    "rows": 5688,
+    "columns": 212,
+    "unique_players": 474,
+    "regular_season_players": 474,
+    "duplicate_keys": 0,
+    "season_types": [
+      "regular-season"
+    ],
+    "measure_types": [
+      "advanced",
+      "base",
+      "defense",
+      "misc",
+      "scoring",
+      "usage"
+    ],
+    "per_modes": [
+      "pergame",
+      "totals"
+    ],
+    "records_per_player": {
+      "12": 474
+    },
+    "max_games_played": 18
+  }
+}

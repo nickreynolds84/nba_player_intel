@@ -1,0 +1,38 @@
+{
+  "season": 2021,
+  "asset_id": 513302554,
+  "asset_name": "player_season_stats_2021.parquet",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_season_stats/player_season_stats_2021.parquet",
+  "source_created_at": "2026-08-13T17:43:48Z",
+  "source_updated_at": "2026-08-13T17:43:48Z",
+  "retrieved_at": "2026-11-24T16:12:55.032114+00:00",
+  "size_bytes": 592799,
+  "sha256": "112fe9d7e6cafc78c8e0a2492dc54315497c3a63d7ceb7ed2b085b9a3012cdff",
+  "validation": {
+    "rows": 8268,
+    "columns": 210,
+    "unique_players": 540,
+    "regular_season_players": 540,
+    "duplicate_keys": 0,
+    "season_types": [
+      "playoffs",
+      "regular-season"
+    ],
+    "measure_types": [
+      "advanced",
+      "base",
+      "defense",
+      "misc",
+      "scoring",
+      "usage"
+    ],
+    "per_modes": [
+      "pergame",
+      "totals"
+    ],
+    "records_per_player": {
+      "10": 540
+    },
+    "max_games_played": 72
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "season": 2020,
+  "asset_id": 513302545,
+  "asset_name": "player_season_stats_2020.parquet",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_season_stats/player_season_stats_2020.parquet",
+  "source_created_at": "2026-08-13T17:43:47Z",
+  "source_updated_at": "2026-08-13T17:43:48Z",
+  "retrieved_at": "2026-11-24T16:12:54.772967+00:00",
+  "size_bytes": 658406,
+  "sha256": "92029c2259f23459d4862280b04de1ad1057596bdff154dafff77a701f79914e",
+  "validation": {
+    "rows": 8952,
+    "columns": 210,
+    "unique_players": 530,
+    "regular_season_players": 529,
+    "duplicate_keys": 0,
+    "season_types": [
+      "playoffs",
+      "regular-season"
+    ],
+    "measure_types": [
+      "advanced",
+      "base",
+      "defense",
+      "misc",
+      "scoring",
+      "usage"
+    ],
+    "per_modes": [
+      "pergame",
+      "totals"
+    ],
+    "records_per_player": {
+      "12": 529
+    },
+    "max_games_played": 74
+  }
+}
