@@ -1,0 +1,44 @@
+{
+  "built_at": "2026-11-24T17:51:52.526519+00:00",
+  "season": 2027,
+  "snapshot": true,
+  "games_through_alignment_verified": false,
+  "sources": {
+    "player_master": {
+      "path": "data/raw/snapshots/player_master/2027/2026-11-24T174403133132Z.parquet",
+      "sha256": "88a275c8f9cfa8ea225ed125f762eb00c08e1288d7bb98ed41431f56e13078a0",
+      "source_updated_at": "2026-11-24T15:18:45Z",
+      "retrieved_at": "2026-11-24T17:44:03.133132+00:00"
+    },
+    "player_hustle": {
+      "path": "data/raw/snapshots/player_hustle/2027/2026-11-24T174403457769Z.parquet",
+      "sha256": "b6361521989096a740d3d22c2e26057a65844b6f6196b44fdab85cabb3332485",
+      "source_updated_at": "2026-11-24T15:22:00Z",
+      "retrieved_at": "2026-11-24T17:44:03.457769+00:00"
+    }
+  },
+  "rows": 481,
+  "columns": 657,
+  "defense_recovery": {
+    "recovered_values": 0,
+    "recovered_players": 0,
+    "metrics": {}
+  },
+  "hustle_quality": {
+    "master_players": 481,
+    "hustle_players": 473,
+    "matched_players": 473,
+    "missing_players": 8,
+    "extra_players": 0,
+    "coverage": 0.9833679833679834,
+    "jaccard_similarity": 0.9833679833679834,
+    "team_agreement": 1.0,
+    "mean_gp_difference": 0.7547568710359408,
+    "median_gp_difference": 0.0,
+    "mean_min_difference": 3.6715539112050743,
+    "median_min_difference": 0.40333333333330756,
+    "quarantined": false,
+    "quarantine_reason": null,
+    "integrated_players": 473
+  }
+}

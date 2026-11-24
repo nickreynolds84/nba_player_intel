@@ -1,0 +1,769 @@
+{
+  "built_at": "2026-11-24T18:00:43.049159+00:00",
+  "start_season": 2016,
+  "end_season": 2026,
+  "rows": 5968,
+  "columns": 655,
+  "quarantined_hustle_seasons": {
+    "2016": "Mislabeled duplicate of 2017 hustle data"
+  },
+  "duplicate_hustle_pairs": [
+    [
+      2016,
+      2017
+    ]
+  ],
+  "historical_hustle_audit": {
+    "2016": {
+      "master_players": 476,
+      "hustle_players": 485,
+      "matched_players": 386,
+      "missing_players": 90,
+      "extra_players": 99,
+      "coverage": 0.8109243697478992,
+      "jaccard_similarity": 0.671304347826087,
+      "team_agreement": 0.5932642487046632,
+      "mean_gp_difference": 15.658031088082902,
+      "median_gp_difference": 11.5,
+      "mean_min_difference": 463.38947754749563,
+      "median_min_difference": 353.49,
+      "best_matching_season": 2017,
+      "best_similarity": 0.9979423868312757
+    },
+    "2017": {
+      "master_players": 486,
+      "hustle_players": 485,
+      "matched_players": 485,
+      "missing_players": 1,
+      "extra_players": 0,
+      "coverage": 0.9979423868312757,
+      "jaccard_similarity": 0.9979423868312757,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.8453608247422681,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 6.851945017182139,
+      "median_min_difference": 0.5166666666668789,
+      "best_matching_season": 2017,
+      "best_similarity": 0.9979423868312757
+    },
+    "2018": {
+      "master_players": 540,
+      "hustle_players": 536,
+      "matched_players": 536,
+      "missing_players": 4,
+      "extra_players": 0,
+      "coverage": 0.9925925925925926,
+      "jaccard_similarity": 0.9925925925925926,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.3190298507462686,
+      "median_gp_difference": 0.0,
+      "mean_min_difference": 4.115037313432834,
+      "median_min_difference": 0.4341666666666697,
+      "best_matching_season": 2018,
+      "best_similarity": 0.9925925925925926
+    },
+    "2019": {
+      "master_players": 530,
+      "hustle_players": 525,
+      "matched_players": 525,
+      "missing_players": 5,
+      "extra_players": 0,
+      "coverage": 0.9905660377358491,
+      "jaccard_similarity": 0.9905660377358491,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.3428571428571427,
+      "median_gp_difference": 0.0,
+      "mean_min_difference": 5.577866666666672,
+      "median_min_difference": 0.46833333333324845,
+      "best_matching_season": 2019,
+      "best_similarity": 0.9905660377358491
+    },
+    "2020": {
+      "master_players": 529,
+      "hustle_players": 525,
+      "matched_players": 525,
+      "missing_players": 4,
+      "extra_players": 0,
+      "coverage": 0.9924385633270322,
+      "jaccard_similarity": 0.9924385633270322,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.24,
+      "median_gp_difference": 0.0,
+      "mean_min_difference": 4.180622222222224,
+      "median_min_difference": 0.4233333333331757,
+      "best_matching_season": 2020,
+      "best_similarity": 0.9924385633270322
+    },
+    "2021": {
+      "master_players": 540,
+      "hustle_players": 538,
+      "matched_players": 538,
+      "missing_players": 2,
+      "extra_players": 0,
+      "coverage": 0.9962962962962963,
+      "jaccard_similarity": 0.9962962962962963,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.8903345724907064,
+      "median_gp_difference": 0.0,
+      "mean_min_difference": 6.619374225526643,
+      "median_min_difference": 0.4816666666666265,
+      "best_matching_season": 2021,
+      "best_similarity": 0.9962962962962963
+    },
+    "2022": {
+      "master_players": 605,
+      "hustle_players": 596,
+      "matched_players": 596,
+      "missing_players": 9,
+      "extra_players": 0,
+      "coverage": 0.9851239669421488,
+      "jaccard_similarity": 0.9851239669421488,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 1.9848993288590604,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 8.088238255033556,
+      "median_min_difference": 0.48750000000001137,
+      "best_matching_season": 2022,
+      "best_similarity": 0.9851239669421488
+    },
+    "2023": {
+      "master_players": 539,
+      "hustle_players": 535,
+      "matched_players": 535,
+      "missing_players": 4,
+      "extra_players": 0,
+      "coverage": 0.9925788497217068,
+      "jaccard_similarity": 0.9925788497217068,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 2.3401869158878505,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 10.813856697819316,
+      "median_min_difference": 2.4966666666666697,
+      "best_matching_season": 2023,
+      "best_similarity": 0.9925788497217068
+    },
+    "2024": {
+      "master_players": 572,
+      "hustle_players": 567,
+      "matched_players": 567,
+      "missing_players": 5,
+      "extra_players": 0,
+      "coverage": 0.9912587412587412,
+      "jaccard_similarity": 0.9912587412587412,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 2.7865961199294533,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 11.308065843621398,
+      "median_min_difference": 3.9166666666666643,
+      "best_matching_season": 2024,
+      "best_similarity": 0.9912587412587412
+    },
+    "2025": {
+      "master_players": 569,
+      "hustle_players": 567,
+      "matched_players": 567,
+      "missing_players": 2,
+      "extra_players": 0,
+      "coverage": 0.9964850615114236,
+      "jaccard_similarity": 0.9964850615114236,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 2.675485008818342,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 11.689570840681956,
+      "median_min_difference": 3.7200000000000273,
+      "best_matching_season": 2025,
+      "best_similarity": 0.9964850615114236
+    },
+    "2026": {
+      "master_players": 582,
+      "hustle_players": 581,
+      "matched_players": 581,
+      "missing_players": 1,
+      "extra_players": 0,
+      "coverage": 0.9982817869415808,
+      "jaccard_similarity": 0.9982817869415808,
+      "team_agreement": 1.0,
+      "mean_gp_difference": 2.46815834767642,
+      "median_gp_difference": 1.0,
+      "mean_min_difference": 11.860051635111876,
+      "median_min_difference": 3.003333333333334,
+      "best_matching_season": 2026,
+      "best_similarity": 0.9982817869415808
+    }
+  },
+  "season_reports": {
+    "2016": {
+      "rows": 476,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 5236,
+        "recovered_players": 476,
+        "metrics": {
+          "def_def_rating": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_dreb_pct": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_pct_dreb": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_pct_stl": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_pct_blk": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_opp_pts_off_tov": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_opp_pts_2_nd_chance": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_opp_pts_fb": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_opp_pts_paint": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_def_ws": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          },
+          "def_def_ws_raw": {
+            "status": "validated_mapping",
+            "comparable_values": 0,
+            "mismatches": 0,
+            "recovered_values": 476
+          }
+        }
+      },
+      "hustle_quality": {
+        "master_players": 476,
+        "hustle_players": 485,
+        "matched_players": 386,
+        "missing_players": 90,
+        "extra_players": 99,
+        "coverage": 0.8109243697478992,
+        "jaccard_similarity": 0.671304347826087,
+        "team_agreement": 0.5932642487046632,
+        "mean_gp_difference": 15.658031088082902,
+        "median_gp_difference": 11.5,
+        "mean_min_difference": 463.38947754749563,
+        "median_min_difference": 353.49,
+        "quarantined": true,
+        "quarantine_reason": "Mislabeled duplicate of 2017 hustle data",
+        "integrated_players": 0
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2016.parquet",
+          "sha256": "e7a0cb98779292b15e3c1ce08891b76b3f5932efde29e2945914ce297142316b",
+          "source_updated_at": "2026-08-13T19:13:24Z",
+          "retrieved_at": "2026-11-24T17:43:50.943615+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2016.parquet",
+          "sha256": "7b24ef32707e95367ae13688911fd9297cb28f80bcd40b9379498ef10b4ded9d",
+          "source_updated_at": "2026-09-02T19:54:29Z",
+          "retrieved_at": "2026-11-24T17:43:53.461479+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2016.parquet",
+          "sha256": "1bd1c268a0343daa328c16c7651361e5c88e78183b35a1cce459036f3ffa7308",
+          "source_updated_at": "2026-08-13T17:43:46Z",
+          "retrieved_at": "2026-11-24T16:12:53.625973+00:00"
+        }
+      }
+    },
+    "2017": {
+      "rows": 486,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 486,
+        "hustle_players": 485,
+        "matched_players": 485,
+        "missing_players": 1,
+        "extra_players": 0,
+        "coverage": 0.9979423868312757,
+        "jaccard_similarity": 0.9979423868312757,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.8453608247422681,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 6.851945017182139,
+        "median_min_difference": 0.5166666666668789,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 485
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2017.parquet",
+          "sha256": "87eede2dcba22df298490c140f80fc5fb1f33d687d8954961fc13edce7cf61f4",
+          "source_updated_at": "2026-08-13T19:13:24Z",
+          "retrieved_at": "2026-11-24T17:43:51.266640+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2017.parquet",
+          "sha256": "fb402b603f27028f68ffb07a7862f8e55eeea85834973bf52ba4e5ca16f1bade",
+          "source_updated_at": "2026-09-30T14:11:00Z",
+          "retrieved_at": "2026-11-24T17:43:53.585979+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2017.parquet",
+          "sha256": "94f5d704fc18977600030260831f9b0f3ad8a79cb2d198906c6fd09149796f9e",
+          "source_updated_at": "2026-08-13T17:43:46Z",
+          "retrieved_at": "2026-11-24T16:12:53.902000+00:00"
+        }
+      }
+    },
+    "2018": {
+      "rows": 540,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 540,
+        "hustle_players": 536,
+        "matched_players": 536,
+        "missing_players": 4,
+        "extra_players": 0,
+        "coverage": 0.9925925925925926,
+        "jaccard_similarity": 0.9925925925925926,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.3190298507462686,
+        "median_gp_difference": 0.0,
+        "mean_min_difference": 4.115037313432834,
+        "median_min_difference": 0.4341666666666697,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 536
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2018.parquet",
+          "sha256": "43da7a68aab04fc51e66409751c5ce2bd0d7d20b039246e461a4c53f6f5fa9b1",
+          "source_updated_at": "2026-08-13T19:13:24Z",
+          "retrieved_at": "2026-11-24T17:43:51.458127+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2018.parquet",
+          "sha256": "947446470707df32c8cc79637c8b1b590cb78ae2070926b15cdecf235acdd35a",
+          "source_updated_at": "2026-09-30T14:16:21Z",
+          "retrieved_at": "2026-11-24T17:43:53.736893+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2018.parquet",
+          "sha256": "2e70ccf09e4ffbe71b03ebbc832fbd91a14818adb3289973a8a22fee26e96813",
+          "source_updated_at": "2026-08-13T17:43:46Z",
+          "retrieved_at": "2026-11-24T16:12:54.173544+00:00"
+        }
+      }
+    },
+    "2019": {
+      "rows": 530,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 530,
+        "hustle_players": 525,
+        "matched_players": 525,
+        "missing_players": 5,
+        "extra_players": 0,
+        "coverage": 0.9905660377358491,
+        "jaccard_similarity": 0.9905660377358491,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.3428571428571427,
+        "median_gp_difference": 0.0,
+        "mean_min_difference": 5.577866666666672,
+        "median_min_difference": 0.46833333333324845,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 525
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2019.parquet",
+          "sha256": "7061a3fc80aa50064a356d6458f0b220c6669ddcc22208d62eeba4bffb7e2b95",
+          "source_updated_at": "2026-08-13T19:13:24Z",
+          "retrieved_at": "2026-11-24T17:43:51.607702+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2019.parquet",
+          "sha256": "3d47ff233468196b9a1b019116d046ba7b9326eb3425aa0bd760ec7e7106145a",
+          "source_updated_at": "2026-09-30T14:21:44Z",
+          "retrieved_at": "2026-11-24T17:43:53.860680+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2019.parquet",
+          "sha256": "bc1cf37d09d69c796220badcdfa0914a85d71c120bf8c7cdb7b088be68c57c25",
+          "source_updated_at": "2026-08-13T17:43:47Z",
+          "retrieved_at": "2026-11-24T16:12:54.517046+00:00"
+        }
+      }
+    },
+    "2020": {
+      "rows": 529,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 529,
+        "hustle_players": 525,
+        "matched_players": 525,
+        "missing_players": 4,
+        "extra_players": 0,
+        "coverage": 0.9924385633270322,
+        "jaccard_similarity": 0.9924385633270322,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.24,
+        "median_gp_difference": 0.0,
+        "mean_min_difference": 4.180622222222224,
+        "median_min_difference": 0.4233333333331757,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 525
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2020.parquet",
+          "sha256": "ccdbf6b33b3bf8761e6387b75ce49c8270c86f7ce2e8786b5e55156dbd7fda73",
+          "source_updated_at": "2026-08-13T19:13:25Z",
+          "retrieved_at": "2026-11-24T17:43:51.780352+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2020.parquet",
+          "sha256": "46319b7d6a307f68c7747c2e7d188c77c4c387e7c532f610d66a024ad84281a4",
+          "source_updated_at": "2026-09-30T14:22:06Z",
+          "retrieved_at": "2026-11-24T17:43:53.995262+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2020.parquet",
+          "sha256": "92029c2259f23459d4862280b04de1ad1057596bdff154dafff77a701f79914e",
+          "source_updated_at": "2026-08-13T17:43:48Z",
+          "retrieved_at": "2026-11-24T16:12:54.772967+00:00"
+        }
+      }
+    },
+    "2021": {
+      "rows": 540,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 540,
+        "hustle_players": 538,
+        "matched_players": 538,
+        "missing_players": 2,
+        "extra_players": 0,
+        "coverage": 0.9962962962962963,
+        "jaccard_similarity": 0.9962962962962963,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.8903345724907064,
+        "median_gp_difference": 0.0,
+        "mean_min_difference": 6.619374225526643,
+        "median_min_difference": 0.4816666666666265,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 538
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2021.parquet",
+          "sha256": "8a9841e210895593e682d70920e77fdfff19f37b0e4668da8619dd6d88694cf3",
+          "source_updated_at": "2026-08-13T19:13:25Z",
+          "retrieved_at": "2026-11-24T17:43:52.011701+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2021.parquet",
+          "sha256": "ed3283427bc06f11ceef09f0fd9069eb7b146d8d3778c25cfd6ea631aa74643b",
+          "source_updated_at": "2026-09-30T14:22:27Z",
+          "retrieved_at": "2026-11-24T17:43:54.178822+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2021.parquet",
+          "sha256": "112fe9d7e6cafc78c8e0a2492dc54315497c3a63d7ceb7ed2b085b9a3012cdff",
+          "source_updated_at": "2026-08-13T17:43:48Z",
+          "retrieved_at": "2026-11-24T16:12:55.032114+00:00"
+        }
+      }
+    },
+    "2022": {
+      "rows": 605,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 605,
+        "hustle_players": 596,
+        "matched_players": 596,
+        "missing_players": 9,
+        "extra_players": 0,
+        "coverage": 0.9851239669421488,
+        "jaccard_similarity": 0.9851239669421488,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 1.9848993288590604,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 8.088238255033556,
+        "median_min_difference": 0.48750000000001137,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 596
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2022.parquet",
+          "sha256": "86123d8752d603d7a7f7b2aa2ea033710aaf4e69a7cf8b31dc76373d6cc3ecf2",
+          "source_updated_at": "2026-08-13T19:13:25Z",
+          "retrieved_at": "2026-11-24T17:43:52.170630+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2022.parquet",
+          "sha256": "33102fedc3675421ad6d1556b1bc0295306f8f0db35bac15f0695261c8602530",
+          "source_updated_at": "2026-09-30T14:22:49Z",
+          "retrieved_at": "2026-11-24T17:43:54.314045+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2022.parquet",
+          "sha256": "8009764d6bba3edb6ba3a14bce7848242290ca58a9a8b5a48fdac1a0fadf7006",
+          "source_updated_at": "2026-08-13T17:43:48Z",
+          "retrieved_at": "2026-11-24T16:12:55.281439+00:00"
+        }
+      }
+    },
+    "2023": {
+      "rows": 539,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 539,
+        "hustle_players": 535,
+        "matched_players": 535,
+        "missing_players": 4,
+        "extra_players": 0,
+        "coverage": 0.9925788497217068,
+        "jaccard_similarity": 0.9925788497217068,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 2.3401869158878505,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 10.813856697819316,
+        "median_min_difference": 2.4966666666666697,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 535
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2023.parquet",
+          "sha256": "4970c24ed31010d175e98d76144cff43766ad30479d4eb9d17ba9c7f19dfd8f7",
+          "source_updated_at": "2026-08-13T19:13:25Z",
+          "retrieved_at": "2026-11-24T17:43:52.366001+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2023.parquet",
+          "sha256": "d9021772d8fec3919c6ee3be321471d6d2378ac25b42704bb8402a5cc6bd173d",
+          "source_updated_at": "2026-09-30T14:23:13Z",
+          "retrieved_at": "2026-11-24T17:43:54.457775+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2023.parquet",
+          "sha256": "b20b6e4b384df0251964d9e930151ec9248da7f24f93f61d802473bb7c3c582c",
+          "source_updated_at": "2026-08-13T17:43:49Z",
+          "retrieved_at": "2026-11-24T16:12:55.596121+00:00"
+        }
+      }
+    },
+    "2024": {
+      "rows": 572,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 572,
+        "hustle_players": 567,
+        "matched_players": 567,
+        "missing_players": 5,
+        "extra_players": 0,
+        "coverage": 0.9912587412587412,
+        "jaccard_similarity": 0.9912587412587412,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 2.7865961199294533,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 11.308065843621398,
+        "median_min_difference": 3.9166666666666643,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 567
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2024.parquet",
+          "sha256": "b320c3f9271b5b1f20e4e7d4af506af94e93379ef85fc7fed9cc36fd7ae63aab",
+          "source_updated_at": "2026-08-13T19:13:25Z",
+          "retrieved_at": "2026-11-24T17:43:52.524833+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2024.parquet",
+          "sha256": "d25c53d3b88dad77f30e3c442b2bbda7004009ae73f4de6ce2f7cd51c6870a03",
+          "source_updated_at": "2026-09-30T14:23:36Z",
+          "retrieved_at": "2026-11-24T17:43:54.590579+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2024.parquet",
+          "sha256": "d361b108035de50a45ea72f73065f13182976522596b80ecd9dfe9f040ab6f87",
+          "source_updated_at": "2026-08-13T17:43:49Z",
+          "retrieved_at": "2026-11-24T16:12:55.873233+00:00"
+        }
+      }
+    },
+    "2025": {
+      "rows": 569,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 569,
+        "hustle_players": 567,
+        "matched_players": 567,
+        "missing_players": 2,
+        "extra_players": 0,
+        "coverage": 0.9964850615114236,
+        "jaccard_similarity": 0.9964850615114236,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 2.675485008818342,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 11.689570840681956,
+        "median_min_difference": 3.7200000000000273,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 567
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2025.parquet",
+          "sha256": "7e7752c2e2df6d9b32c68283965dd723896a5f523d118243f738dd044279670f",
+          "source_updated_at": "2026-08-13T19:13:26Z",
+          "retrieved_at": "2026-11-24T17:43:52.761272+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2025.parquet",
+          "sha256": "dc33358ec156acda83683c62bc69f35bdf8b509193c7f09733e6400301b003ac",
+          "source_updated_at": "2026-09-30T14:23:56Z",
+          "retrieved_at": "2026-11-24T17:43:54.727918+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2025.parquet",
+          "sha256": "06badb896d5feb784918738f9292e9a8c1124c100c35a1d72f104cc423340a36",
+          "source_updated_at": "2026-08-13T17:43:50Z",
+          "retrieved_at": "2026-11-24T16:12:56.130788+00:00"
+        }
+      }
+    },
+    "2026": {
+      "rows": 582,
+      "columns": 655,
+      "defense_recovery": {
+        "recovered_values": 0,
+        "recovered_players": 0,
+        "metrics": {}
+      },
+      "hustle_quality": {
+        "master_players": 582,
+        "hustle_players": 581,
+        "matched_players": 581,
+        "missing_players": 1,
+        "extra_players": 0,
+        "coverage": 0.9982817869415808,
+        "jaccard_similarity": 0.9982817869415808,
+        "team_agreement": 1.0,
+        "mean_gp_difference": 2.46815834767642,
+        "median_gp_difference": 1.0,
+        "mean_min_difference": 11.860051635111876,
+        "median_min_difference": 3.003333333333334,
+        "quarantined": false,
+        "quarantine_reason": null,
+        "integrated_players": 581
+      },
+      "sources": {
+        "player_master": {
+          "path": "data/raw/player_master/player_master_2026.parquet",
+          "sha256": "34a0481fb4f4af35fd56e9fe76ab0adbfcef4ba7d4db000533d9842b20a2183e",
+          "source_updated_at": "2026-08-13T21:10:24Z",
+          "retrieved_at": "2026-11-24T17:43:52.911190+00:00"
+        },
+        "player_hustle": {
+          "path": "data/raw/player_hustle/player_hustle_2026.parquet",
+          "sha256": "8a4f40a75652b4b468fdf8b091637f218bc9832b9a509ed90cbbacd5601a66ce",
+          "source_updated_at": "2026-09-30T14:24:15Z",
+          "retrieved_at": "2026-11-24T17:43:54.895420+00:00"
+        },
+        "original_player_stats": {
+          "path": "data/raw/player_stats/player_season_stats_2026.parquet",
+          "sha256": "ba4bbe3256f19c752dc5bb40ddd8b2dc82bba4492b03708196a168a4fc696354",
+          "source_updated_at": "2026-08-13T17:43:50Z",
+          "retrieved_at": "2026-11-24T16:12:56.362464+00:00"
+        }
+      }
+    }
+  }
+}
