@@ -1,0 +1,41 @@
+{
+  "dataset": "schedules",
+  "season": 2023,
+  "snapshot": false,
+  "asset_id": 752663936,
+  "asset_name": "nba_schedule_2023.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2023.parquet",
+  "source_created_at": "2026-11-15T23:10:50Z",
+  "source_updated_at": "2026-11-15T23:10:50Z",
+  "retrieved_at": "2026-11-24T19:49:09.843053+00:00",
+  "size_bytes": 23854,
+  "sha256": "51c97f7c4010969e1e5b96c47f073c9750b58beaf054da5220add60bf5465b67",
+  "validation": {
+    "rows": 1394,
+    "columns": 15,
+    "unique_games": 1394,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1230,
+      "004": 84,
+      "001": 70,
+      "005": 6,
+      "003": 4
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1230,
+      "playoffs": 84,
+      "preseason": 70,
+      "play in": 6,
+      "all star": 4
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2022-09-30T00:00:00",
+    "last_game_date": "2023-06-12T00:00:00",
+    "completed_games": 1394,
+    "other_games": 0
+  }
+}

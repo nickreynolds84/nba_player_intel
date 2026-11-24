@@ -1,0 +1,30 @@
+{
+  "dataset": "lineups",
+  "season": 2024,
+  "snapshot": false,
+  "asset_id": 752665637,
+  "asset_name": "nba_lineups_2024.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2024.parquet",
+  "source_created_at": "2026-11-15T23:11:29Z",
+  "source_updated_at": "2026-11-15T23:11:29Z",
+  "retrieved_at": "2026-11-24T19:49:13.432550+00:00",
+  "size_bytes": 1016856,
+  "sha256": "355e948df90336aaf4b401a94f4058a06d74f16b15bfa27816be98f72aaeca05",
+  "validation": {
+    "rows": 678771,
+    "columns": 14,
+    "unique_games": 1396,
+    "duplicate_key_rows": 70700,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 598705,
+      "004": 38307,
+      "001": 37376,
+      "005": 2881,
+      "003": 925,
+      "006": 577
+    },
+    "entirely_null_columns": []
+  }
+}

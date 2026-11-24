@@ -1,0 +1,39 @@
+{
+  "dataset": "schedules",
+  "season": 2016,
+  "snapshot": false,
+  "asset_id": 752656634,
+  "asset_name": "nba_schedule_2016.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2016.parquet",
+  "source_created_at": "2026-11-15T23:08:15Z",
+  "source_updated_at": "2026-11-15T23:08:15Z",
+  "retrieved_at": "2026-11-24T19:49:08.780183+00:00",
+  "size_bytes": 23667,
+  "sha256": "6e366d4ea896e9a0536599274f6fc87ac05fe3be8115f3654f85a4e10bdf6631",
+  "validation": {
+    "rows": 1428,
+    "columns": 15,
+    "unique_games": 1428,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1230,
+      "001": 109,
+      "004": 86,
+      "003": 3
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1230,
+      "preseason": 109,
+      "playoffs": 86,
+      "all star": 3
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2015-10-02T00:00:00",
+    "last_game_date": "2016-06-19T00:00:00",
+    "completed_games": 1428,
+    "other_games": 0
+  }
+}

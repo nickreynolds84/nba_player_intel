@@ -1,0 +1,32 @@
+{
+  "dataset": "player_boxscores",
+  "season": 2018,
+  "snapshot": false,
+  "asset_id": 601999831,
+  "asset_name": "player_boxscores_2018.parquet",
+  "source_release": "nba_stats_player_boxscores",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_boxscores/player_boxscores_2018.parquet",
+  "source_created_at": "2026-09-30T23:25:36Z",
+  "source_updated_at": "2026-09-30T23:25:36Z",
+  "retrieved_at": "2026-11-24T19:49:02.246437+00:00",
+  "size_bytes": 601048,
+  "sha256": "bd773a04d95dc6f633617776e2cbe8ec33786a92704b70435eb9637cc4fb352b",
+  "validation": {
+    "rows": 33090,
+    "columns": 37,
+    "unique_games": 1312,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 30980,
+      "004": 2110
+    },
+    "entirely_null_columns": [],
+    "unique_players": 547,
+    "unique_teams": 30,
+    "season_type_id_counts": {
+      "2": 30980,
+      "4": 2110
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dataset": "lineups",
+  "season": 2017,
+  "snapshot": false,
+  "asset_id": 752658618,
+  "asset_name": "nba_lineups_2017.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2017.parquet",
+  "source_created_at": "2026-11-15T23:08:54Z",
+  "source_updated_at": "2026-11-15T23:08:54Z",
+  "retrieved_at": "2026-11-24T19:49:11.315625+00:00",
+  "size_bytes": 875218,
+  "sha256": "fba2371daa4ef216819853b9c2328aeb1734b8726f46585d2c1b8865aa101095",
+  "validation": {
+    "rows": 688123,
+    "columns": 14,
+    "unique_games": 1412,
+    "duplicate_key_rows": 70798,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 597984,
+      "001": 51075,
+      "004": 38075,
+      "003": 989
+    },
+    "entirely_null_columns": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "player_game_logs",
+  "season": 2017,
+  "snapshot": false,
+  "asset_id": 743929760,
+  "asset_name": "player_game_logs_2017.parquet",
+  "source_release": "nba_stats_player_game_logs",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_game_logs/player_game_logs_2017.parquet",
+  "source_created_at": "2026-11-13T14:21:34Z",
+  "source_updated_at": "2026-11-13T14:21:35Z",
+  "retrieved_at": "2026-11-24T19:49:04.472893+00:00",
+  "size_bytes": 572404,
+  "sha256": "b6edfc2b5e6f78bca74b5a033b7e3646c7ee8993cdf09be121aac6ca8bc66936",
+  "validation": {
+    "rows": 27876,
+    "columns": 34,
+    "unique_games": 1309,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 26139,
+      "004": 1737
+    },
+    "entirely_null_columns": [],
+    "unique_players": 486,
+    "unique_teams": 30,
+    "season_type_counts": {
+      "regular season": 26139,
+      "playoffs": 1737
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2016-10-25T00:00:00",
+    "last_game_date": "2017-06-12T00:00:00"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "dataset": "player_boxscores",
+  "season": 2024,
+  "snapshot": false,
+  "asset_id": 602011649,
+  "asset_name": "player_boxscores_2024.parquet",
+  "source_release": "nba_stats_player_boxscores",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_boxscores/player_boxscores_2024.parquet",
+  "source_created_at": "2026-09-30T23:34:41Z",
+  "source_updated_at": "2026-09-30T23:34:41Z",
+  "retrieved_at": "2026-11-24T19:49:03.398647+00:00",
+  "size_bytes": 632350,
+  "sha256": "fd77145e9a05b0564a7cc008f9fe9d3850be93cbc55ababf33c4bbd05a1a2338",
+  "validation": {
+    "rows": 34843,
+    "columns": 37,
+    "unique_games": 1319,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 32385,
+      "004": 2270,
+      "005": 160,
+      "006": 28
+    },
+    "entirely_null_columns": [],
+    "unique_players": 586,
+    "unique_teams": 30,
+    "season_type_id_counts": {
+      "2": 32385,
+      "4": 2270,
+      "5": 160,
+      "6": 28
+    }
+  }
+}

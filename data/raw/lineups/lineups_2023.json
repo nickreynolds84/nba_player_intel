@@ -1,0 +1,29 @@
+{
+  "dataset": "lineups",
+  "season": 2023,
+  "snapshot": false,
+  "asset_id": 752664609,
+  "asset_name": "nba_lineups_2023.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2023.parquet",
+  "source_created_at": "2026-11-15T23:11:07Z",
+  "source_updated_at": "2026-11-15T23:11:07Z",
+  "retrieved_at": "2026-11-24T19:49:13.119626+00:00",
+  "size_bytes": 1004423,
+  "sha256": "674afcf29baaacb722fa40e13f66bd904c46f34275cd82a8e3ba94dd645d87d5",
+  "validation": {
+    "rows": 684226,
+    "columns": 14,
+    "unique_games": 1394,
+    "duplicate_key_rows": 67090,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 603785,
+      "004": 40163,
+      "001": 36406,
+      "005": 3023,
+      "003": 849
+    },
+    "entirely_null_columns": []
+  }
+}

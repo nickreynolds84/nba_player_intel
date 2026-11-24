@@ -1,0 +1,34 @@
+{
+  "dataset": "player_boxscores",
+  "season": 2021,
+  "snapshot": false,
+  "asset_id": 602005267,
+  "asset_name": "player_boxscores_2021.parquet",
+  "source_release": "nba_stats_player_boxscores",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_boxscores/player_boxscores_2021.parquet",
+  "source_created_at": "2026-09-30T23:29:59Z",
+  "source_updated_at": "2026-09-30T23:29:59Z",
+  "retrieved_at": "2026-11-24T19:49:02.778343+00:00",
+  "size_bytes": 575871,
+  "sha256": "af73432fa9006628b44f1cd8bf542fdf7e444d68e7f9ea16affd615c0b1db97b",
+  "validation": {
+    "rows": 31546,
+    "columns": 37,
+    "unique_games": 1171,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 28859,
+      "004": 2518,
+      "005": 169
+    },
+    "entirely_null_columns": [],
+    "unique_players": 544,
+    "unique_teams": 30,
+    "season_type_id_counts": {
+      "2": 28859,
+      "4": 2518,
+      "5": 169
+    }
+  }
+}

@@ -449,16 +449,16 @@ def recover_defensive_metrics(
             raise FileNotFoundError(
                 f"Defensive recovery source not found: " f"{original_path}"
             )
-    if missing_metrics and original_path is not None and original_path.exists():
+        # if missing_metrics and original_path is not None and original_path.exists():
 
-        original = pd.read_parquet(original_path)
+        #     original = pd.read_parquet(original_path)
 
-        original = regular_season(original)
+        #     original = regular_season(original)
 
-        defense = original.loc[
-            normalize_label(original["measure_type"]).eq("defense")
-            & original["per_mode"].eq("totals")
-        ].copy()
+        #     defense = original.loc[
+        #         normalize_label(original["measure_type"]).eq("defense")
+        #         & original["per_mode"].eq("totals")
+        #     ].copy()
 
         if not defense.empty:
 

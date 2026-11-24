@@ -1,0 +1,39 @@
+{
+  "dataset": "schedules",
+  "season": 2019,
+  "snapshot": false,
+  "asset_id": 752659963,
+  "asset_name": "nba_schedule_2019.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2019.parquet",
+  "source_created_at": "2026-11-15T23:09:21Z",
+  "source_updated_at": "2026-11-15T23:09:21Z",
+  "retrieved_at": "2026-11-24T19:49:09.238354+00:00",
+  "size_bytes": 23440,
+  "sha256": "4a52937033b35eb9e3f9797199c32ba51918a01d58ccd430bde9b0401e87ea70",
+  "validation": {
+    "rows": 1394,
+    "columns": 15,
+    "unique_games": 1394,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1230,
+      "004": 82,
+      "001": 79,
+      "003": 3
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1230,
+      "playoffs": 82,
+      "preseason": 79,
+      "all star": 3
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2018-09-28T00:00:00",
+    "last_game_date": "2019-06-13T00:00:00",
+    "completed_games": 1394,
+    "other_games": 0
+  }
+}

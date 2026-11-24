@@ -1,0 +1,29 @@
+{
+  "dataset": "lineups",
+  "season": 2021,
+  "snapshot": false,
+  "asset_id": 752662774,
+  "asset_name": "nba_lineups_2021.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2021.parquet",
+  "source_created_at": "2026-11-15T23:10:23Z",
+  "source_updated_at": "2026-11-15T23:10:23Z",
+  "retrieved_at": "2026-11-24T19:49:12.496883+00:00",
+  "size_bytes": 893476,
+  "sha256": "cda0170508bda175db5fed77065f0b98ad8f22c3e3ed84341f4d08615caa4dc0",
+  "validation": {
+    "rows": 596148,
+    "columns": 14,
+    "unique_games": 1221,
+    "duplicate_key_rows": 60614,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 526268,
+      "004": 40940,
+      "001": 25377,
+      "005": 3098,
+      "003": 465
+    },
+    "entirely_null_columns": []
+  }
+}

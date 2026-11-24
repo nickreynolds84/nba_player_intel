@@ -1,0 +1,35 @@
+{
+  "dataset": "player_game_logs",
+  "season": 2016,
+  "snapshot": false,
+  "asset_id": 743928156,
+  "asset_name": "player_game_logs_2016.parquet",
+  "source_release": "nba_stats_player_game_logs",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_game_logs/player_game_logs_2016.parquet",
+  "source_created_at": "2026-11-13T14:21:00Z",
+  "source_updated_at": "2026-11-13T14:21:01Z",
+  "retrieved_at": "2026-11-24T19:49:04.313044+00:00",
+  "size_bytes": 570464,
+  "sha256": "fbc5652fe691a6157184087fd23380b3d01d4212707c395e40dade15e936b15c",
+  "validation": {
+    "rows": 27978,
+    "columns": 34,
+    "unique_games": 1316,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 26078,
+      "004": 1900
+    },
+    "entirely_null_columns": [],
+    "unique_players": 478,
+    "unique_teams": 30,
+    "season_type_counts": {
+      "regular season": 26078,
+      "playoffs": 1900
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2015-10-27T00:00:00",
+    "last_game_date": "2016-06-19T00:00:00"
+  }
+}

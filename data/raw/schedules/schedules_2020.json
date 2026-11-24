@@ -1,0 +1,39 @@
+{
+  "dataset": "schedules",
+  "season": 2020,
+  "snapshot": false,
+  "asset_id": 752660963,
+  "asset_name": "nba_schedule_2020.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2020.parquet",
+  "source_created_at": "2026-11-15T23:09:43Z",
+  "source_updated_at": "2026-11-15T23:09:43Z",
+  "retrieved_at": "2026-11-24T19:49:09.400011+00:00",
+  "size_bytes": 20413,
+  "sha256": "50990c8de9eb1074fa1b9538ce229350af56802899be7d4bfa5a4b94153da0a0",
+  "validation": {
+    "rows": 1146,
+    "columns": 15,
+    "unique_games": 1146,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1059,
+      "004": 83,
+      "003": 3,
+      "005": 1
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1059,
+      "playoffs": 83,
+      "all star": 3,
+      "play in": 1
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2019-10-22T00:00:00",
+    "last_game_date": "2020-10-11T00:00:00",
+    "completed_games": 1145,
+    "other_games": 1
+  }
+}

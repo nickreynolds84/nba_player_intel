@@ -1,0 +1,35 @@
+{
+  "dataset": "player_game_logs",
+  "season": 2025,
+  "snapshot": false,
+  "asset_id": 743943981,
+  "asset_name": "player_game_logs_2025.parquet",
+  "source_release": "nba_stats_player_game_logs",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_player_game_logs/player_game_logs_2025.parquet",
+  "source_created_at": "2026-11-13T14:25:59Z",
+  "source_updated_at": "2026-11-13T14:25:59Z",
+  "retrieved_at": "2026-11-24T19:49:05.916399+00:00",
+  "size_bytes": 594773,
+  "sha256": "09358c6f028bfdeea25dca4932aae7322e47f431644e334e61e8f3210f60a6a2",
+  "validation": {
+    "rows": 28110,
+    "columns": 34,
+    "unique_games": 1314,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 26306,
+      "004": 1804
+    },
+    "entirely_null_columns": [],
+    "unique_players": 569,
+    "unique_teams": 30,
+    "season_type_counts": {
+      "regular season": 26306,
+      "playoffs": 1804
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2024-10-22T00:00:00",
+    "last_game_date": "2025-06-22T00:00:00"
+  }
+}

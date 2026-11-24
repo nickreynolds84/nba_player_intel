@@ -1,0 +1,41 @@
+{
+  "dataset": "schedules",
+  "season": 2021,
+  "snapshot": false,
+  "asset_id": 752662060,
+  "asset_name": "nba_schedule_2021.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2021.parquet",
+  "source_created_at": "2026-11-15T23:10:07Z",
+  "source_updated_at": "2026-11-15T23:10:07Z",
+  "retrieved_at": "2026-11-24T19:49:09.541879+00:00",
+  "size_bytes": 20932,
+  "sha256": "8c4b838eada98de81355099f6b6d31fb98636499be9018b102f878629f560604",
+  "validation": {
+    "rows": 1221,
+    "columns": 15,
+    "unique_games": 1221,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1080,
+      "004": 85,
+      "001": 49,
+      "005": 6,
+      "003": 1
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1080,
+      "playoffs": 85,
+      "preseason": 49,
+      "play in": 6,
+      "all star": 1
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2020-12-11T00:00:00",
+    "last_game_date": "2021-07-20T00:00:00",
+    "completed_games": 1221,
+    "other_games": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dataset": "lineups",
+  "season": 2019,
+  "snapshot": false,
+  "asset_id": 752660760,
+  "asset_name": "nba_lineups_2019.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2019.parquet",
+  "source_created_at": "2026-11-15T23:09:38Z",
+  "source_updated_at": "2026-11-15T23:09:38Z",
+  "retrieved_at": "2026-11-24T19:49:11.912404+00:00",
+  "size_bytes": 1015991,
+  "sha256": "9261359df486b9c1b444cced7ca87616d0948c1d2addddedf9e37d418cf3fea1",
+  "validation": {
+    "rows": 697595,
+    "columns": 14,
+    "unique_games": 1394,
+    "duplicate_key_rows": 70426,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 613435,
+      "001": 41637,
+      "004": 41012,
+      "003": 1511
+    },
+    "entirely_null_columns": []
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "dataset": "schedules",
+  "season": 2024,
+  "snapshot": false,
+  "asset_id": 752664938,
+  "asset_name": "nba_schedule_2024.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2024.parquet",
+  "source_created_at": "2026-11-15T23:11:12Z",
+  "source_updated_at": "2026-11-15T23:11:12Z",
+  "retrieved_at": "2026-11-24T19:49:10.009327+00:00",
+  "size_bytes": 23574,
+  "sha256": "a12b6b1ae6195c44e13d04c74a321bf9905e7f0bec6bba111be6bdc8e93c7f69",
+  "validation": {
+    "rows": 1396,
+    "columns": 15,
+    "unique_games": 1396,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1230,
+      "004": 82,
+      "001": 73,
+      "005": 6,
+      "003": 4,
+      "006": 1
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1230,
+      "playoffs": 82,
+      "preseason": 73,
+      "play in": 6,
+      "all star": 4,
+      "nba cup": 1
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2023-10-05T00:00:00",
+    "last_game_date": "2024-06-17T00:00:00",
+    "completed_games": 1396,
+    "other_games": 0
+  }
+}

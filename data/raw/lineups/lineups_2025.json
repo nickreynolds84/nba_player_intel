@@ -1,0 +1,30 @@
+{
+  "dataset": "lineups",
+  "season": 2025,
+  "snapshot": false,
+  "asset_id": 752666634,
+  "asset_name": "nba_lineups_2025.parquet",
+  "source_release": "nba_stats_game_lineups",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_game_lineups/nba_lineups_2025.parquet",
+  "source_created_at": "2026-11-15T23:11:53Z",
+  "source_updated_at": "2026-11-15T23:11:53Z",
+  "retrieved_at": "2026-11-24T19:49:13.767997+00:00",
+  "size_bytes": 1057367,
+  "sha256": "17166457801e16ecd60defa07a3c0e84cd538d1258669e3e934e38d4f285a74e",
+  "validation": {
+    "rows": 689823,
+    "columns": 14,
+    "unique_games": 1400,
+    "duplicate_key_rows": 73504,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 606536,
+      "004": 41772,
+      "001": 37272,
+      "005": 3014,
+      "003": 740,
+      "006": 489
+    },
+    "entirely_null_columns": []
+  }
+}
