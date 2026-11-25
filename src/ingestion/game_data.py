@@ -191,7 +191,7 @@ def normalize_integer_ids(series, label):
         errors="raise",
     )
 
-    valid = values.notna() & values.gt(0) & values.mod(1).eq(0)
+    valid = (values.notna() & values.gt(0) & values.mod(1).eq(0)).fillna(False)
 
     if not valid.all():
 
@@ -281,6 +281,64 @@ def identify_team_boxscore_placeholders(df):
     return mask
 
 
+def identify_schedule_placeholders(df):
+    """
+    Identify unresolved scheduled games for which neither
+    participating team has been determined.
+
+    Legitimate placeholders must have zero-valued team IDs,
+    no team metadata, no matchup, no recorded outcomes,
+    and a valid scheduled game date.
+    """
+    null_columns = [
+        "matchup",
+        "home_team_abbreviation",
+        "home_team_name",
+        "home_pts",
+        "home_wl",
+        "away_team_abbreviation",
+        "away_team_name",
+        "away_pts",
+        "away_wl",
+    ]
+
+    required = {
+        "game_id",
+        "game_date",
+        "season_type",
+        "home_team_id",
+        "away_team_id",
+        *null_columns,
+    }
+
+    if not required.issubset(df.columns):
+        return pd.Series(False, index=df.index, dtype=bool)
+
+    home_ids = pd.to_numeric(
+        df["home_team_id"],
+        errors="coerce",
+    )
+
+    away_ids = pd.to_numeric(
+        df["away_team_id"],
+        errors="coerce",
+    )
+
+    game_dates = pd.to_datetime(
+        df["game_date"],
+        errors="coerce",
+    )
+
+    return (
+        home_ids.eq(0)
+        & away_ids.eq(0)
+        & df[null_columns].isna().all(axis=1)
+        & game_dates.notna()
+        & df["game_id"].notna()
+        & df["season_type"].notna()
+    ).fillna(False)
+
+
 def validate_game_dataset(df, dataset, season):
 
     config = DATASETS[dataset]
@@ -342,6 +400,24 @@ def validate_game_dataset(df, dataset, season):
             if df.empty:
                 raise ValueError(f"{dataset} {season}: " "No non-placeholder records")
 
+    schedule_placeholder_mask = pd.Series(False, index=df.index, dtype=bool)
+
+    if dataset == "schedules":
+        schedule_placeholder_mask = identify_schedule_placeholders(df)
+        placeholder_rows = int(schedule_placeholder_mask.sum())
+        placeholder_game_ids = (
+            df.loc[schedule_placeholder_mask, "game_id"].unique().tolist()
+        )
+
+        if placeholder_rows:
+            logger.warning(
+                "%s %s: Identified %s unresolved scheduled games: %s",
+                dataset,
+                season,
+                placeholder_rows,
+                placeholder_game_ids,
+            )
+
     for column in [
         "player_id",
         "person_id",
@@ -352,12 +428,19 @@ def validate_game_dataset(df, dataset, season):
 
         if column in df.columns:
 
-            try:
+            validation_mask = pd.Series(True, index=df.index, dtype=bool)
+            if dataset == "schedules" and column in ["home_team_id", "away_team_id"]:
+                validation_mask = ~schedule_placeholder_mask
 
-                df[column] = normalize_integer_ids(
-                    df[column],
+            try:
+                normalized_ids = normalize_integer_ids(
+                    df.loc[validation_mask, column],
                     column,
                 )
+                # Only verified schedule placeholders may retain zero IDs.
+                normalized_column = pd.Series(0, index=df.index, dtype="int64")
+                normalized_column.loc[validation_mask] = normalized_ids
+                df[column] = normalized_column
 
             except ValueError as exc:
 
@@ -369,6 +452,8 @@ def validate_game_dataset(df, dataset, season):
                 valid = (values.notna() & values.gt(0) & values.mod(1).eq(0)).fillna(
                     False
                 )
+
+                valid = valid | ~validation_mask
 
                 invalid_values = df.loc[~valid, column].head(10).tolist()
 
@@ -477,11 +562,21 @@ def validate_game_dataset(df, dataset, season):
             & df["home_wl"].isin(["W", "L"])
             & df["away_wl"].isin(["W", "L"])
             & df["home_wl"].ne(df["away_wl"])
+            & ~schedule_placeholder_mask
+        ).fillna(False)
+
+        scheduled = (
+            ~completed
+            & ~schedule_placeholder_mask
+            & df[["home_pts", "away_pts", "home_wl", "away_wl"]].isna().all(axis=1)
         )
 
-        report["completed_games"] = int(completed.sum())
+        other = ~completed & ~scheduled & ~schedule_placeholder_mask
 
-        report["other_games"] = int((~completed).sum())
+        report["completed_games"] = int(completed.sum())
+        report["scheduled_games"] = int(scheduled.sum())
+        report["unresolved_scheduled_games"] = int(schedule_placeholder_mask.sum())
+        report["other_games"] = int(other.sum())
 
     return report
 

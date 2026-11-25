@@ -1,0 +1,36 @@
+{
+  "dataset": "team_boxscores",
+  "season": 2027,
+  "snapshot": true,
+  "asset_id": 788380440,
+  "asset_name": "team_boxscores_2027.parquet",
+  "source_release": "nba_stats_team_boxscores",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_team_boxscores/team_boxscores_2027.parquet",
+  "source_created_at": "2026-11-24T18:35:58Z",
+  "source_updated_at": "2026-11-24T18:35:59Z",
+  "retrieved_at": "2026-11-24T20:17:42.941173+00:00",
+  "size_bytes": 25928,
+  "sha256": "000fe338fef60777c1e8be8745ca72dab06027bd5453c023234ebeb007ae7fb8",
+  "validation": {
+    "rows": 518,
+    "validated_rows": 516,
+    "placeholder_rows": 2,
+    "placeholder_games": 1,
+    "placeholder_game_ids": [
+      "0062600001"
+    ],
+    "columns": 29,
+    "unique_games": 258,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 516
+    },
+    "entirely_null_columns": [],
+    "unique_teams": 30,
+    "season_type_id_counts": {
+      "2": 516
+    },
+    "games_without_two_teams": 0
+  }
+}

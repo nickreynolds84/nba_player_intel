@@ -1,0 +1,11 @@
+{
+  "season": 2027,
+  "audited_at": "2026-11-25T17:09:17.245497+00:00",
+  "source_paths": {
+    "player_boxscores": "data/raw/snapshots/player_boxscores/2027/2026-11-24T194914917823Z.parquet",
+    "player_game_logs": "data/raw/snapshots/player_game_logs/2027/2026-11-24T194915472232Z.parquet",
+    "team_boxscores": "data/raw/snapshots/team_boxscores/2027/2026-11-24T201742941173Z.parquet",
+    "schedules": "data/raw/snapshots/schedules/2027/2026-11-24T202708800417Z.parquet",
+    "lineups": "data/raw/snapshots/lineups/2027/2026-11-24T202809298872Z.parquet"
+  }
+}

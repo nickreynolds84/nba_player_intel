@@ -1,0 +1,11 @@
+{
+  "season": 2020,
+  "audited_at": "2026-11-25T17:08:39.349416+00:00",
+  "source_paths": {
+    "player_boxscores": "data/raw/player_boxscores/player_boxscores_2020.parquet",
+    "player_game_logs": "data/raw/player_game_logs/player_game_logs_2020.parquet",
+    "team_boxscores": "data/raw/team_boxscores/team_boxscores_2020.parquet",
+    "schedules": "data/raw/schedules/schedules_2020.parquet",
+    "lineups": "data/raw/lineups/lineups_2020.parquet"
+  }
+}

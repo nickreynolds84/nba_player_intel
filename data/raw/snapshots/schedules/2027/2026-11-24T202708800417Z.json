@@ -1,0 +1,51 @@
+{
+  "dataset": "schedules",
+  "season": 2027,
+  "snapshot": true,
+  "asset_id": 787693526,
+  "asset_name": "nba_schedule_2027.parquet",
+  "source_release": "nba_stats_schedules",
+  "source_url": "https://github.com/sportsdataverse/sportsdataverse-data/releases/download/nba_stats_schedules/nba_schedule_2027.parquet",
+  "source_created_at": "2026-11-24T15:16:41Z",
+  "source_updated_at": "2026-11-24T15:16:41Z",
+  "retrieved_at": "2026-11-24T20:27:08.800417+00:00",
+  "size_bytes": 18989,
+  "sha256": "b35d6cf0c1ab061e2f0701c9a6aa082742d7a88ee73688152852a55300691d61",
+  "validation": {
+    "rows": 1274,
+    "validated_rows": 1274,
+    "placeholder_rows": 7,
+    "placeholder_games": 7,
+    "placeholder_game_ids": [
+      "0022601201",
+      "0022601202",
+      "0022601203",
+      "0022601204",
+      "0022601229",
+      "0022601230",
+      "0062600001"
+    ],
+    "columns": 15,
+    "unique_games": 1274,
+    "duplicate_key_rows": 0,
+    "missing_key_rows": 0,
+    "game_prefix_counts": {
+      "002": 1206,
+      "001": 67,
+      "006": 1
+    },
+    "entirely_null_columns": [],
+    "season_type_counts": {
+      "regular season": 1206,
+      "preseason": 67,
+      "nba cup": 1
+    },
+    "invalid_game_dates": 0,
+    "first_game_date": "2026-10-03T00:00:00",
+    "last_game_date": "2027-04-11T00:00:00",
+    "completed_games": 325,
+    "scheduled_games": 942,
+    "unresolved_scheduled_games": 7,
+    "other_games": 0
+  }
+}

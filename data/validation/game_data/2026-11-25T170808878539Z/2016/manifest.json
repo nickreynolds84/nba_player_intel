@@ -1,0 +1,11 @@
+{
+  "season": 2016,
+  "audited_at": "2026-11-25T17:08:15.361198+00:00",
+  "source_paths": {
+    "player_boxscores": "data/raw/player_boxscores/player_boxscores_2016.parquet",
+    "player_game_logs": "data/raw/player_game_logs/player_game_logs_2016.parquet",
+    "team_boxscores": "data/raw/team_boxscores/team_boxscores_2016.parquet",
+    "schedules": "data/raw/schedules/schedules_2016.parquet",
+    "lineups": "data/raw/lineups/lineups_2016.parquet"
+  }
+}
