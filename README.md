@@ -1,0 +1,3 @@
+## NBA Player Intelligence Tool
+
+The fictional NBA Player Development & Contract Decision Intelligence platform evaluates demonstrated player development by distinguishing changes in basketball production from changes in playing time, role, and opportunity. It combines contextualized performance analysis, player comparability, and historical contract information to estimate market and performance-based valuations, providing basketball operations professionals with an evidence-based framework for evaluating players, comparing free agents, and assessing contract opportunities.
