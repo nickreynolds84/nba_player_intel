@@ -1,0 +1,48 @@
+{
+  "source_system": "courtsketch",
+  "acquisition_method": "manual_csv_export",
+  "ingested_at_utc": "2026-11-26T16:48:59.510286+00:00",
+  "snapshot_id": "2026-11-26T164859510147Z",
+  "datasets": {
+    "contracts": {
+      "filename": "contracts.parquet",
+      "source_location": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/courtsketch/contracts.csv",
+      "row_count": 7798,
+      "column_count": 12,
+      "columns": [
+        "date",
+        "kind",
+        "type",
+        "teams",
+        "player_or_assets",
+        "years",
+        "total_value_musd",
+        "aav_musd",
+        "terms_stated",
+        "option",
+        "flags",
+        "notes"
+      ]
+    },
+    "trades": {
+      "filename": "trades.parquet",
+      "source_location": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/courtsketch/trades.csv",
+      "row_count": 738,
+      "column_count": 12,
+      "columns": [
+        "date",
+        "kind",
+        "type",
+        "teams",
+        "player_or_assets",
+        "years",
+        "total_value_musd",
+        "aav_musd",
+        "terms_stated",
+        "option",
+        "flags",
+        "notes"
+      ]
+    }
+  }
+}

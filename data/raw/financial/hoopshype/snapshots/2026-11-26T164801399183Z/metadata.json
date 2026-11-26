@@ -1,0 +1,46 @@
+{
+  "source_system": "hoopshype",
+  "acquisition_method": "existing_parquet_import",
+  "ingested_at_utc": "2026-11-26T16:48:01.399320+00:00",
+  "snapshot_id": "2026-11-26T164801399183Z",
+  "datasets": {
+    "player_salaries": {
+      "filename": "player_salaries.parquet",
+      "source_location": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/hoopshype/player_salaries.parquet",
+      "row_count": 7288,
+      "column_count": 14,
+      "columns": [
+        "season_year",
+        "season",
+        "player_id",
+        "player",
+        "salary",
+        "team_id",
+        "team",
+        "team_option",
+        "player_option",
+        "qualifying_offer",
+        "two_way",
+        "terminated",
+        "notes",
+        "source"
+      ]
+    },
+    "salary_caps": {
+      "filename": "salary_caps.parquet",
+      "source_location": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/hoopshype/salary_caps.parquet",
+      "row_count": 12,
+      "column_count": 8,
+      "columns": [
+        "season_year",
+        "season",
+        "salary_cap",
+        "luxury_tax_line",
+        "first_apron",
+        "second_apron",
+        "source_status",
+        "notes"
+      ]
+    }
+  }
+}

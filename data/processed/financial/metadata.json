@@ -1,0 +1,24 @@
+{
+  "transformed_at_utc": "2026-11-26T16:55:03.453950+00:00",
+  "source_snapshots": {
+    "hoopshype": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/hoopshype/snapshots/2026-11-26T164852634529Z",
+    "courtsketch": "/Users/nickreynolds/Private/nba_player_intel/data/raw/financial/courtsketch/snapshots/2026-11-26T164859510147Z"
+  },
+  "datasets": {
+    "player_salaries": {
+      "filename": "player_salaries.parquet",
+      "row_count": 7288,
+      "column_count": 26
+    },
+    "salary_caps": {
+      "filename": "salary_caps.parquet",
+      "row_count": 12,
+      "column_count": 9
+    },
+    "player_contracts": {
+      "filename": "player_contracts.parquet",
+      "row_count": 7798,
+      "column_count": 39
+    }
+  }
+}
